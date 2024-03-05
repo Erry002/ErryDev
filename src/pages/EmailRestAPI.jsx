@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
 import axios from "axios";
-import { useState } from "react";
 
 function EmailRestAPI() {
   const [name, setName] = useState("");
@@ -45,13 +44,13 @@ function EmailRestAPI() {
 
   return (
     <div className="flex w-full">
-      <div className=" w-full flex bg-blue-950">
-        <div className=" text-slate-100 flex justify-center w-full h-screen">
+      <div className="w-full flex bg-blue-950">
+        <div className="text-slate-100 flex justify-center w-full h-screen">
           <form
             onSubmit={handleSubmit}
-            className=" flex flex-col items-center justify-center gap-10"
+            className="flex flex-col items-center justify-center gap-10 md:w-[500px]"
           >
-            <h1 className=" text-slate-200 font-bold text-lg">
+            <h1 className="text-slate-200 font-bold text-lg">
               Cercami se ti serve qualcosa!!
             </h1>
             <input
@@ -59,14 +58,14 @@ function EmailRestAPI() {
               placeholder="Inserisci il tuo nome"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className=" rounded-lg bg-blue-950 border-4 border-blue-900 p-4 w-[500px] text-slate-100"
+              className="rounded-lg bg-blue-950 border-4 border-blue-900 p-4 w-full text-slate-100"
             />
             <input
               type="email"
               placeholder="Inserisci la tua email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className=" rounded-lg bg-blue-950 border-4 border-blue-900 p-4 w-[500px] text-slate-100"
+              className="rounded-lg bg-blue-950 border-4 border-blue-900 p-4 w-full text-slate-100"
             />
             <textarea
               cols="30"
@@ -74,11 +73,11 @@ function EmailRestAPI() {
               value={message}
               placeholder="Scrivi un messaggio"
               onChange={(e) => setMessage(e.target.value)}
-              className=" rounded-lg bg-blue-950 border-4 border-blue-900 p-4 w-[500px] text-slate-100"
+              className="rounded-lg bg-blue-950 border-4 border-blue-900 p-4 w-full text-slate-100"
             ></textarea>
             <button
               type="submit"
-              className=" rounded-lg bg-blue-300 border-4 border-blue-900 p-4 w-[500px]"
+              className="rounded-lg bg-blue-300 border-4 border-blue-900 p-4 w-full"
             >
               Invia il messaggio
             </button>
