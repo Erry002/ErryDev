@@ -10,7 +10,7 @@ export default function Skills() {
 
             <div className="text-slate-100 px-5 flex flex-col justify-center w-full max-w-7xl">
               <h1 className="font-bold text-4xl mb-8">
-                Le <span className="text-blue-300">m</span>ie skill
+                Le <span className="text-blue-300">m</span>ie skills
               </h1>
               <div className="my-4 h-1 w-[400px] md:w-full bg-blue-300"></div>
               <div>
