@@ -9,7 +9,7 @@ export default function Navbar() {
     <div className=" flex w-full items-center">
       <nav className=" flex bg-blue-950 top-0 h-[60px] mb-[-60px] z-10 justify-center w-full ">
         <div className=" flex items-center w-full max-w-7xl text-xl justify-between px-5">
-          <div className="font-sans font-bold text-2xl rounded-xl p-2 ">
+          <div className="font-sans font-bold text-3xl rounded-xl p-2 ">
             <Link
               to="/"
               onClick={() => setActiveLink('/')}
@@ -37,7 +37,7 @@ export default function Navbar() {
               }  hover:underline underline-offset-4 hover:text-blue-300`}
               /* className=" text-slate-50 underline-offset-4 shadow-sm hover:underline decoration-blue-300 hover:text-blue-300 transition-all" */
             >
-              About
+              Chi sono
             </Link>
             <Link
               to="/skills"
@@ -46,7 +46,7 @@ export default function Navbar() {
                 activeLink === '/skills' ? ' underline underline-offset-4 decoration-blue-300 text-blue-300' : 'text-slate-50 transition-all shadow-sm'
               }  hover:underline underline-offset-4 hover:text-blue-300`}
             >
-              Skills
+              Abilità
             </Link>
             <Link
               to="/project"

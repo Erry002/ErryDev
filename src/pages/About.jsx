@@ -9,7 +9,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
             <div className="border-2 flex items-center justify-center border-emerald-600 h-[400px] md:h-auto w-full md:w-[300px] lg:w-[400px]">
               {/* Contenuto per la foto */}
-              <img src={foto_mia} alt="Foto_personale" className=" drop-shadow-2xl" />
+              {/* <img src={foto_mia} alt="Foto_personale" className=" drop-shadow-2xl" /> */}
             </div>
 
             <div>
