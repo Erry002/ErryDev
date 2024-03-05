@@ -1,5 +1,5 @@
 /* import foto_mia from "../assets/soggetto.png"; */
-import foto_mia from "../assets/soggetto_2.png";
+/* import foto_mia from "../assets/soggetto_2.png"; */
 
 export default function About() {
   return (
