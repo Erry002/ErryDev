@@ -31,35 +31,35 @@ export default function Navbar() {
             <Link
               to="/"
               onClick={() => { setActiveLink('/'); setShowMenu(false); }}
-              className={`${activeLink === '/' ? 'text-blue-300 ' : 'text-slate-50'} hover:text-blue-300 hover:underline underline-offset-4 transition-all`}
+              className={`${activeLink === '/' ? 'text-blue-300 underline' : 'text-slate-50'} hover:text-blue-300 hover:underline underline-offset-4 transition-all`}
             >
               Home
             </Link>
             <Link
               to="/about"
               onClick={() => { setActiveLink('/about'); setShowMenu(false); }}
-              className={`${activeLink === '/about' ? 'text-blue-300' : 'text-slate-50'} hover:text-blue-300 hover:underline underline-offset-4 transition-all`}
+              className={`${activeLink === '/about' ? 'text-blue-300 underline' : 'text-slate-50'} hover:text-blue-300 hover:underline underline-offset-4 transition-all`}
             >
               Chi sono
             </Link>
             <Link
               to="/skills"
               onClick={() => { setActiveLink('/skills'); setShowMenu(false); }}
-              className={`${activeLink === '/skills' ? 'text-blue-300' : 'text-slate-50'} hover:text-blue-300 hover:underline underline-offset-4 transition-all`}
+              className={`${activeLink === '/skills' ? 'text-blue-300 underline' : 'text-slate-50'} hover:text-blue-300 hover:underline underline-offset-4 transition-all`}
             >
               Abilità
             </Link>
             <Link
               to="/project"
               onClick={() => { setActiveLink('/project'); setShowMenu(false); }}
-              className={`${activeLink === '/project' ? 'text-blue-300' : 'text-slate-50'} hover:text-blue-300 hover:underline underline-offset-4 transition-all`}
+              className={`${activeLink === '/project' ? 'text-blue-300 underline' : 'text-slate-50'} hover:text-blue-300 hover:underline underline-offset-4 transition-all`}
             >
               Project
             </Link>
             <Link
               to="/form"
               onClick={() => { setActiveLink('/form'); setShowMenu(false); }}
-              className={`${activeLink === '/form' ? 'text-blue-300' : 'text-slate-50'} hover:text-blue-300 hover:underline underline-offset-4 transition-all`}
+              className={`${activeLink === '/form' ? 'text-blue-300 underline' : 'text-slate-50'} hover:text-blue-300 hover:underline underline-offset-4 transition-all`}
             >
               Form
             </Link>

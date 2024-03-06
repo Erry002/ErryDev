@@ -45,12 +45,12 @@ function EmailRestAPI() {
   return (
     <div className="flex w-full">
       <div className="w-full flex bg-blue-950">
-        <div className="text-slate-100 flex justify-center w-full h-screen">
+        <div className="text-slate-100 flex justify-center w-full min-h-screen">
           <form
             onSubmit={handleSubmit}
-            className="flex flex-col items-center justify-center gap-10 md:w-[500px]"
+            className="flex flex-col items-center justify-center my-40 gap-10 md:w-[500px]"
           >
-            <h1 className="text-slate-200 font-bold text-lg">
+            <h1 className="text-slate-200  font-bold text-lg">
               Cercami se ti serve qualcosa!!
             </h1>
             <input

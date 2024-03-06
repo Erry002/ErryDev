@@ -12,7 +12,7 @@ export default function Skills() {
               <h1 className="font-bold text-4xl mb-8">
                 Le <span className="text-blue-300">m</span>ie skills
               </h1>
-              <div className="my-4 h-1 w-[400px] md:w-full bg-blue-300"></div>
+              <div className="my-4 h-1 w-[300px] md:w-full bg-blue-300"></div>
               <div>
                 <h1 className="mb-3 text-xl underline underline-offset-4">
                   Nell'arco della mia esperienza lavorativa in cucina ho
@@ -63,7 +63,7 @@ export default function Skills() {
                   </li>
                 </ul>
               </div>
-              <div className="my-4 h-1 w-[400px] md:w-full bg-blue-300"></div>
+              <div className="my-4 h-1 w-[300px] md:w-full bg-blue-300"></div>
               <div>
                 <h1 className="mb-3 text-xl underline underline-offset-4">
                   Invece per quanto riguarda le skill lavorative nel campo della
@@ -110,7 +110,7 @@ export default function Skills() {
                   </p>
                 </ul>
               </div>
-              <div className="my-4 h-1 w-[400px] md:w-full bg-blue-300"></div>
+              <div className="my-4 h-1 w-[300px] md:w-full bg-blue-300"></div>
             </div>
           </div>
         </div>
