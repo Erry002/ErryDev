@@ -4,7 +4,7 @@ import { CiLinkedin } from "react-icons/ci";
 
 export default function Project() {
     return (
-      <footer className="bg-blue-950 text-slate-100 flex justify-center items-center z-10 mt-[-90px] gap-10 p-5 flex-col md:flex-row">
+      <footer className="bg-blue-950 shadow-[0px_-5px_60px_-15px_rgba(0,0,0,0.3)] text-slate-100 flex justify-center items-center z-10 mt-[-70px] gap-10 p-5 flex-col md:flex-row">
         <h1 className="text-lg font-bold">Ciao Benvenuto nel mio portfoglio personale!</h1>
         <h1 className="">Scritto e ideato da @errygz</h1>
         <div className="footer-links flex md:justify-center md:items-center gap-5">

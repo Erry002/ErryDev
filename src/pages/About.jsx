@@ -30,7 +30,7 @@ export default function About() {
                 </h2>
                 <ul className="">
                   <li className="ml-4 list-disc">
-                    Laurea triennale in Informatica all'università di Catania:{" "}
+                    Laurea triennale in Informatica all'università di Catania:
                     <br />
                     <span className="font-light text-blue-300">In corso</span>
                   </li>

@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import logo from "../assets/landing.png";
 import fatcs from "../assets/cat_facts.png";
 import games from "../assets/Sito_giochi.png";
@@ -16,9 +18,9 @@ export default function Project() {
             Qualche mio progetto che potete trovare su GitHub!
           </h1>
           <div className="flex flex-col sm:flex-row items-center justify-between w-full px-5">
-            {/* prima card */}
 
-            <div className="h-[600px] sm:w-[350px] flex flex-col items-center rounded-lg m-2 bg-blue-900 overflow-hidden hover:bg-blue-800 hover:scale-105 transition ">
+            {/* prima card */}
+            <div className="h-[620px] sm:w-[350px] flex flex-col items-center rounded-lg m-2 bg-blue-900 overflow-hidden hover:bg-blue-800 hover:scale-105 transition ">
               <div className="">
                 <img
                   src={logo}
@@ -37,7 +39,7 @@ export default function Project() {
                   Clicca il bottone per vedere il codice su GitHub.
                 </p>
                 <button
-                  className="bg-blue-700 w-full p-2 rounded-xl transition-all hover:underline hover:bg-blue-600 underline-offset-4 mt-auto"
+                  className="bg-blue-700 w-full p-2 mb-4 rounded-xl transition-all hover:underline hover:bg-blue-600 underline-offset-4 mt-auto"
                   onClick={() =>
                     handleButtonClick(
                       "https://github.com/Erry002/simulazione-landing/tree/main/code"
@@ -46,11 +48,18 @@ export default function Project() {
                 >
                   Apri su GitHub
                 </button>
+                <Link
+                  className="bg-blue-700 w-full px-[100px] py-[10px] rounded-xl sm:mt-7 transition-all hover:underline hover:bg-blue-600 underline-offset-4"
+                  target="_blank" rel="noopener noreferrer"
+                  to="https://erryairlines.netlify.app/"
+                >
+                  Provalo Subito!
+                </Link>
               </div>
             </div>
 
             {/* seconda card */}
-            <div className="h-[600px] sm:w-[350px] flex flex-col items-center rounded-lg m-2 bg-blue-900 overflow-hidden hover:bg-blue-800 hover:scale-105 transition ">
+            <div className="h-[620px] sm:w-[350px] flex flex-col items-center rounded-lg m-2 bg-blue-900 overflow-hidden hover:bg-blue-800 hover:scale-105 transition ">
               <div className=" ">
                 <img
                   src={fatcs}
@@ -71,9 +80,9 @@ export default function Project() {
                     Clicca il bottone per vedere il codice su GitHub.
                   </p>
                 </div>
-                <div className="flex justify-between mt-auto">
+                <div className="">
                   <button
-                    className="bg-blue-700 w-full p-2 rounded-xl sm:mt-7 transition-all hover:underline hover:bg-blue-600 underline-offset-4 "
+                    className="bg-blue-700 w-full p-2 mb-4 rounded-xl sm:mt-7 transition-all hover:underline hover:bg-blue-600 underline-offset-4 "
                     onClick={() =>
                       handleButtonClick(
                         "https://github.com/Erry002/Cartella-documentazione-corsi-WebDev/blob/main/Corso%20Opinno%20WebDev/Programma%20corso%20Opinno/Giorno_21_introduzione_react/Progetti_con_React_%2B_Vite/progetto_con_vit/doc_amo/src/EsFect.jsx"
@@ -82,11 +91,19 @@ export default function Project() {
                   >
                     Apri su GitHub
                   </button>
+
+                  <Link
+                    className="bg-blue-700 w-full px-[100px] py-[10px] rounded-xl sm:mt-7 transition-all hover:underline hover:bg-blue-600 underline-offset-4"
+                    to="/catFact"
+                  >
+                    Provalo Subito!
+                  </Link>
                 </div>
               </div>
             </div>
+
             {/* terza card */}
-            <div className="h-[600px] sm:w-[350px] flex flex-col items-center rounded-lg m-2 bg-blue-900 overflow-hidden hover:bg-blue-800 hover:scale-105 transition ">
+            <div className="h-[620px] sm:w-[350px] flex flex-col items-center rounded-lg m-2 bg-blue-900 overflow-hidden hover:bg-blue-800 hover:scale-105 transition ">
               <div>
                 <img
                   src={games}
@@ -108,9 +125,9 @@ export default function Project() {
                     Clicca il bottone per vedere il codice su GitHub.
                   </p>
                 </div>
-                <div className="flex mt-auto">
+                <div className="">
                   <button
-                    className="bg-blue-700 w-full p-2 rounded-xl transition-all hover:underline hover:bg-blue-600 underline-offset-4 mt-[-13px]"
+                    className="bg-blue-700 w-full p-2 mb-4 rounded-xl transition-all hover:underline hover:bg-blue-600 underline-offset-4 mt-[-13px]"
                     onClick={() =>
                       handleButtonClick(
                         "https://github.com/Erry002/Cartella-documentazione-corsi-WebDev/tree/main/Corso%20Opinno%20WebDev/Programma%20corso%20Opinno/Lavoro_gruppo_dicembre_Sito_giochi"
@@ -119,6 +136,13 @@ export default function Project() {
                   >
                     Apri su GitHub
                   </button>
+                  <Link
+                  className="bg-blue-700 w-full px-[100px] py-[10px] rounded-xl sm:mt-7 transition-all hover:underline hover:bg-blue-600 underline-offset-4"
+                  target="_blank" rel="noopener noreferrer"
+                  to="https://siteplaygame.netlify.app/"
+                >
+                  Provalo Subito!
+                </Link>
                 </div>
               </div>
             </div>

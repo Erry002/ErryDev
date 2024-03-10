@@ -12,6 +12,10 @@ import Form from "./pages/EmailRestAPI";
 import Error from "./pages/Error";
 import Footer from "./components/Footer";
 
+/* tutti gli import file dei progetti */
+import CatFact from "./project/CatFacts";
+
+
 function App() {
   return (
     <>
@@ -24,6 +28,7 @@ function App() {
           <Route path="/project" element={<Project />} />
           <Route path="/form" element={<Form />} />
           <Route path="*" element={<Error />} />
+          <Route path="/catFact" element={<CatFact />} />
         </Routes>
         <Footer />
       </Router>
