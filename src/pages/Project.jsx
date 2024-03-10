@@ -49,11 +49,14 @@ export default function Project() {
                   Apri su GitHub
                 </button>
                 <Link
-                  className="bg-blue-700 w-full px-[100px] py-[10px] rounded-xl sm:mt-7 transition-all hover:underline hover:bg-blue-600 underline-offset-4"
                   target="_blank" rel="noopener noreferrer"
                   to="https://erryairlines.netlify.app/"
                 >
-                  Provalo Subito!
+                  <button
+                  className="bg-blue-700 w-full p-2 mb-4 rounded-xl transition-all hover:underline hover:bg-blue-600 underline-offset-4 mt-auto"
+                  >
+                    Provalo Subito!
+                  </button>
                 </Link>
               </div>
             </div>
@@ -82,7 +85,7 @@ export default function Project() {
                 </div>
                 <div className="">
                   <button
-                    className="bg-blue-700 w-full p-2 mb-4 rounded-xl sm:mt-7 transition-all hover:underline hover:bg-blue-600 underline-offset-4 "
+                    className="bg-blue-700 w-full p-2 rounded-xl sm:mt-7 transition-all hover:underline hover:bg-blue-600 underline-offset-4 "
                     onClick={() =>
                       handleButtonClick(
                         "https://github.com/Erry002/Cartella-documentazione-corsi-WebDev/blob/main/Corso%20Opinno%20WebDev/Programma%20corso%20Opinno/Giorno_21_introduzione_react/Progetti_con_React_%2B_Vite/progetto_con_vit/doc_amo/src/EsFect.jsx"
@@ -93,10 +96,11 @@ export default function Project() {
                   </button>
 
                   <Link
-                    className="bg-blue-700 w-full px-[100px] py-[10px] rounded-xl sm:mt-7 transition-all hover:underline hover:bg-blue-600 underline-offset-4"
                     to="/catFact"
                   >
-                    Provalo Subito!
+                    <button className="bg-blue-700 w-full p-2 rounded-xl sm:mt-4 mt-4 transition-all hover:underline hover:bg-blue-600 underline-offset-4 ">
+                      Provalo Subito!
+                    </button>
                   </Link>
                 </div>
               </div>
@@ -137,11 +141,13 @@ export default function Project() {
                     Apri su GitHub
                   </button>
                   <Link
-                  className="bg-blue-700 w-full px-[100px] py-[10px] rounded-xl sm:mt-7 transition-all hover:underline hover:bg-blue-600 underline-offset-4"
                   target="_blank" rel="noopener noreferrer"
                   to="https://siteplaygame.netlify.app/"
                 >
-                  Provalo Subito!
+                  <button
+                  className="bg-blue-700 w-full p-2 rounded-xl transition-all hover:underline hover:bg-blue-600 underline-offset-4">
+                    Provalo Subito!
+                  </button>
                 </Link>
                 </div>
               </div>
