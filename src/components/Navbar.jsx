@@ -13,7 +13,7 @@ export default function Navbar() {
 
   return (
     <div className="flex w-full items-center">
-      <nav className="flex bg-blue-950 top-0 h-[60px] mb-[-60px] z-10 justify-center w-full">
+      <nav className="flex bg-blue-950 shadow-2xl top-0 h-[60px] mb-[-60px] z-10 justify-center w-full">
         <div className="flex items-center w-full max-w-7xl justify-between px-5">
           <div className="font-sans font-bold text-3xl rounded-xl p-2">
             <Link
@@ -54,7 +54,7 @@ export default function Navbar() {
               onClick={() => { setActiveLink('/project'); setShowMenu(false); }}
               className={`${activeLink === '/project' ? 'text-blue-300 underline' : 'text-slate-50'} hover:text-blue-300 hover:underline underline-offset-4 transition-all`}
             >
-              Project
+              Progetti
             </Link>
             <Link
               to="/form"
