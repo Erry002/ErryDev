@@ -3,7 +3,7 @@
 
 export default function About() {
   return (
-    <div className="flex flex-col min-h-screen bg-blue-950 text-white">
+    <div className="flex flex-col pt-5 min-h-screen bg-blue-950 text-white ">
       <div className="flex justify-center pt-16">
         <div className="max-w-7xl w-full px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
