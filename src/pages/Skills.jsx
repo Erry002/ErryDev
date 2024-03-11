@@ -2,12 +2,9 @@ export default function Skills() {
   return (
     <div className="flex flex-col pt-5 min-h-screen bg-blue-950 text-white">
       <div className="flex justify-center pt-16">
-        <div className="max-w-7xl w-full px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
-            <div className="border-2 border-emerald-600 h-[400px] md:h-auto w-full md:w-[300px] lg:w-[400px]">
-              {/* Contenuto per la foto */}
-            </div>
-
+        <div className="max-w-7xl  w-full px-4">
+          <div className="grid  grid-cols-1 md:grid-cols-2 gap-8 mb-20">
+            
             <div className="text-slate-100 px-5 flex flex-col justify-center w-full max-w-7xl">
               <h1 className="font-bold text-4xl mb-8">
                 Le <span className="text-blue-300">m</span>ie skills
@@ -111,6 +108,10 @@ export default function Skills() {
                 </ul>
               </div>
               <div className="my-4 h-1 w-[300px] md:w-full bg-blue-300"></div>
+            </div>
+
+            <div className="border-2 border-emerald-600 h-[400px] md:h-auto w-full md:w-[300px] lg:w-[400px]">
+              {/* Contenuto per la foto */}
             </div>
           </div>
         </div>
