@@ -48,7 +48,7 @@ function EmailRestAPI() {
         <div className="text-slate-100 flex justify-center w-full min-h-screen">
           <form
             onSubmit={handleSubmit}
-            className="flex flex-col items-center justify-center gap-10 md:w-[500px]"
+            className="flex flex-col items-center justify-center gap-10 h-[600px] md:w-[500px]"
           >
             <h1 className="text-slate-200  font-bold text-lg">
               Cercami se ti serve qualcosa!!

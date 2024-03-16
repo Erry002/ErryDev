@@ -19,7 +19,7 @@ export default function EsFect() {
   }
   return (
     <div className=" flex items-center justify-center h-screen bg-blue-950">
-      <div className=" flex flex-col shadow-2xl w-[600px] h-[500px] rounded-lg p-3 bg-blue-400 items-center justify-center gap-3">
+      <div className=" flex flex-col shadow-2xl w-[300px] md:w-[600px] h-[400px] rounded-lg p-3 bg-blue-400 items-center justify-center gap-3">
         <button
           onClick={getFact}
           className="  shadow-2xl border-2 border-slate-200 rounded-2xl text-white bg-blue-700 p-4 mb-5 font-bold"
