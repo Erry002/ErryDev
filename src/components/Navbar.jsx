@@ -32,7 +32,7 @@ export default function Navbar() {
           <div className="block sm:hidden">
             <FiMenu onClick={toggleMenu} className="text-white text-3xl cursor-pointer mr-2" />
           </div>
-          <div className={`sm:flex sm:space-x-5 pl-5 ${showMenu ? 'mx-5 flex flex-col space-y-4 absolute top-[60px] right-3 pr-4 bg-blue-900 shadow-2xl rounded-lg w-[30px] py-4 items-start' : 'hidden'}`}>
+          <div className={`sm:flex sm:space-x-5 pl-5 ${showMenu ? 'mx-5 flex flex-col space-y-4 absolute top-[60px] right-3 pr-4 bg-blue-900 shadow-2xl rounded-lg w-[330px] py-4 items-start' : 'hidden'}`}>
             <Link
               to="/"
               onClick={() => { setActiveLink('/'); setShowMenu(false); }}
