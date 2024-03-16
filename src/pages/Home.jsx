@@ -1,9 +1,9 @@
 export default function Home() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-blue-950 text-white">
-      <div className="max-w-7xl w-full px-4">
-        <div className="flex md:flex-row flex-col md:justify-between items-center h-screen">
-          <div className="text-2xl md:mb-0 mb-20 mt-24 md:mt-0 font-black">
+      <div className=" flex items-center justify-center max-w-7xl w-full px-4">
+        <div className="flex sm:flex-row flex-col sm:justify-between items-center justify-center mb-28 w-full">
+          <div className="text-2xl mb-20 mt-24 font-black">
             <h1 className="font-thin text-base">
               Benvenuto nella mia pagina Web
             </h1>
