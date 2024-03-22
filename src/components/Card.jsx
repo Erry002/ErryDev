@@ -26,7 +26,6 @@ export default function Card({
           onClick={() =>
             handleButtonClick(
               urlGit
-              //"https://github.com/Erry002/simulazione-landing/tree/main/code"
             )
           }
         >
@@ -37,7 +36,6 @@ export default function Card({
           onClick={() =>
             handleButtonClick(
               urlSito
-              //"https://erryairlines.netlify.app/"
             )
           }
         >
