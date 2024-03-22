@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
+import Card from "../components/Card.jsx";
 
 import logo from "../assets/landing.png";
 import fatcs from "../assets/cat_facts.png";
@@ -18,9 +19,16 @@ export default function Project() {
             Qualche mio progetto che potete trovare su GitHub!
           </h1>
           <div className="flex flex-col sm:flex-row items-center justify-between w-full px-5">
-
             {/* prima card */}
-            <div className="h-[620px] sm:w-[350px] flex flex-col items-center rounded-lg m-2 bg-blue-900 overflow-hidden hover:bg-blue-800 hover:scale-105 transition ">
+            <Card
+              title="Landing page"
+              description="Questo è un esempio di landing page di una agenzia di viaggi, completa anche di form per le richieste, completamente
+        responsive. Clicca il bottone per vedere il codice su GitHub."
+              imageUrl={logo}
+              urlGit="https://github.com/Erry002/simulazione-landing/tree/main/code"
+              urlSito="https://erryairlines.netlify.app/"
+            />
+            {/* <div className="h-[620px] sm:w-[350px] flex flex-col items-center rounded-lg m-2 bg-blue-900 overflow-hidden hover:bg-blue-800 hover:scale-105 transition ">
               <div className="">
                 <img
                   src={logo}
@@ -59,10 +67,18 @@ export default function Project() {
                   </button>
                 </Link>
               </div>
-            </div>
+            </div> */}
 
             {/* seconda card */}
-            <div className="h-[620px] sm:w-[350px] flex flex-col items-center rounded-lg m-2 bg-blue-900 overflow-hidden hover:bg-blue-800 hover:scale-105 transition ">
+            <Card
+              title="Landing page"
+              description="Questo è un esempio di landing page di una agenzia di viaggi, completa anche di form per le richieste, completamente
+        responsive. Clicca il bottone per vedere il codice su GitHub."
+              imageUrl={fatcs}
+              urlGit="https://github.com/Erry002/Cartella-documentazione-corsi-WebDev/blob/main/Corso%20Opinno%20WebDev/Programma%20corso%20Opinno/Giorno_21_introduzione_react/Progetti_con_React_%2B_Vite/progetto_con_vit/doc_amo/src/EsFect.jsx"
+              urlSito="https://errydev.netlify.app/catFact"
+            />
+            {/* <div className="h-[620px] sm:w-[350px] flex flex-col items-center rounded-lg m-2 bg-blue-900 overflow-hidden hover:bg-blue-800 hover:scale-105 transition ">
               <div className=" ">
                 <img
                   src={fatcs}
@@ -95,19 +111,25 @@ export default function Project() {
                     Apri su GitHub
                   </button>
 
-                  <Link
-                    to="/catFact"
-                  >
+                  <Link to="/catFact">
                     <button className="bg-blue-700 w-full p-2 rounded-xl sm:mt-4 mt-4 transition-all hover:underline hover:bg-blue-600 underline-offset-4 ">
                       Provalo Subito!
                     </button>
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* terza card */}
-            <div className="h-[620px] sm:w-[350px] flex flex-col items-center rounded-lg m-2 bg-blue-900 overflow-hidden hover:bg-blue-800 hover:scale-105 transition ">
+            <Card
+              title="Landing page"
+              description="Questo è un esempio di landing page di una agenzia di viaggi, completa anche di form per le richieste, completamente
+        responsive. Clicca il bottone per vedere il codice su GitHub."
+              imageUrl={games}
+              urlGit="https://github.com/Erry002/Cartella-documentazione-corsi-WebDev/tree/main/Corso%20Opinno%20WebDev/Programma%20corso%20Opinno/Lavoro_gruppo_dicembre_Sito_giochi"
+              urlSito="https://siteplaygame.netlify.app/"
+            />
+            {/* <div className="h-[620px] sm:w-[350px] flex flex-col items-center rounded-lg m-2 bg-blue-900 overflow-hidden hover:bg-blue-800 hover:scale-105 transition ">
               <div>
                 <img
                   src={games}
@@ -141,17 +163,17 @@ export default function Project() {
                     Apri su GitHub
                   </button>
                   <Link
-                  target="_blank" rel="noopener noreferrer"
-                  to="https://siteplaygame.netlify.app/"
-                >
-                  <button
-                  className="bg-blue-700 w-full p-2 rounded-xl transition-all hover:underline hover:bg-blue-600 underline-offset-4">
-                    Provalo Subito!
-                  </button>
-                </Link>
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    to="https://siteplaygame.netlify.app/"
+                  >
+                    <button className="bg-blue-700 w-full p-2 rounded-xl transition-all hover:underline hover:bg-blue-600 underline-offset-4">
+                      Provalo Subito!
+                    </button>
+                  </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
