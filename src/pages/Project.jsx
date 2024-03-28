@@ -38,7 +38,7 @@ export default function Project() {
               personali che ho fatto durante un corso di programmazione, in questo mostro come utilizzare le API"
               imageUrl={fatcs}
               urlGit="https://github.com/Erry002/Cartella-documentazione-corsi-WebDev/blob/main/Corso%20Opinno%20WebDev/Programma%20corso%20Opinno/Giorno_21_introduzione_react/Progetti_con_React_%2B_Vite/progetto_con_vit/doc_amo/src/EsFect.jsx"
-              urlSito="https://errydev.netlify.app/catFact"
+              urlSito="/catFact"
               btnTesto1="Apri su GitHub"
               btnTesto2="Provalo subito"
             />
