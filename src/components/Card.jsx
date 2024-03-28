@@ -16,7 +16,7 @@ export default function Card({
   return (
     <div className=" gap-10 h-[620px] sm:w-[350px] flex flex-col items-center rounded-lg m-4 bg-blue-900 overflow-hidden hover:bg-blue-800 hover:scale-105 transition">
       <img className="w-full" src={imageUrl} alt="Card" />
-      <div className="px-6 -mb-14 sm:h-[250px]">
+      <div className="px-6 sm:-mb-14 sm:h-[250px]">
         <div className="font-bold text-blue-300 text-2xl mb-2">{title}</div>
         <p className="text-slate-100 h-full">{description}</p>
       </div>
