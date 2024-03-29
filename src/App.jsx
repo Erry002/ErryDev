@@ -12,11 +12,7 @@ import Error from "./pages/Error";
 import Footer from "./components/Footer";
 
 /* tutti gli import file dei progetti */
-<<<<<<< HEAD
-import CatFact from "./projectCat/CatFacts";
-=======
 import CatFact from "./components/CatFacts";
->>>>>>> test
 
 
 function App() {
