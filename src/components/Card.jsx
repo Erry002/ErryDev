@@ -10,7 +10,8 @@ export default function Card({
   btnTesto2,
 }) {
   const handleButtonClick = (url) => {
-    window.open(url, "_blank");
+    // window.open(url, "_blank"); //questa é una funzione che permette di aprire i link in un altra pagina
+    window.location.href = url;
   };
 
   return (
