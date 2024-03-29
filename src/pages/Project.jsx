@@ -8,8 +8,8 @@ import games from "../assets/Sito_giochi.png";
 
 export default function Project() {
   const handleButtonClick = (url) => {
-    // window.open(url, "_blank"); //questa é una funzione che permette di aprire i link in un altra pagina
-    window.location.href = url; //questa é una proprietá che permette di cambiare url della pagina
+    window.open(url, "_blank"); //questa é una funzione che permette di aprire i link in un altra pagina
+    //window.location.href = url; //questa é una proprietá che permette di cambiare url della pagina
   };
 
   return (
