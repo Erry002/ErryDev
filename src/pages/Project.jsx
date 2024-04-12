@@ -1,16 +1,20 @@
 import React from "react";
 //import { Link } from "react-router-dom";
 import Card from "../components/Card.jsx";
+import CardLink from "../components/CardLink.jsx";
 
 import logo from "../assets/landing.png";
 import fatcs from "../assets/cat_facts.png";
 import games from "../assets/Sito_giochi.png";
 
 export default function Project() {
+<<<<<<< HEAD
   const handleButtonClick = (url) => {
     window.open(url, "_blank"); //questa é una funzione che permette di aprire i link in un altra pagina
     //window.location.href = url; //questa é una proprietá che permette di cambiare url della pagina
   };
+=======
+>>>>>>> test
 
   return (
     <div className="flex w-full min-h-screen bg-blue-950 items-center">
@@ -33,7 +37,7 @@ export default function Project() {
             />
 
             {/* seconda card */}
-            <Card
+            <CardLink
               title="Piccolo progetto personale con API"
               description="Questo è un esempio è composto da altri piccoli progetti
               personali che ho fatto durante un corso di programmazione, in questo mostro come utilizzare le API"
