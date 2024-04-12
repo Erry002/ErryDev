@@ -8,13 +8,6 @@ import fatcs from "../assets/cat_facts.png";
 import games from "../assets/Sito_giochi.png";
 
 export default function Project() {
-<<<<<<< HEAD
-  const handleButtonClick = (url) => {
-    window.open(url, "_blank"); //questa é una funzione che permette di aprire i link in un altra pagina
-    //window.location.href = url; //questa é una proprietá che permette di cambiare url della pagina
-  };
-=======
->>>>>>> test
 
   return (
     <div className="flex w-full min-h-screen bg-blue-950 items-center">
