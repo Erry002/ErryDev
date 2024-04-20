@@ -33,7 +33,7 @@ export default function CardLink({
           {btnTesto1}
         </button>
         <Link
-            to="/catFact"
+            to={urlSito}
             className="bg-red-700 w-full p-2 mb-4 rounded-xl transition-all hover:underline hover:bg-red-600 underline-offset-4 text-center "
         >
             {btnTesto2}
