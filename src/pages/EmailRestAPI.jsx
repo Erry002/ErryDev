@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { Button } from "../components/ui/button";
+import { Toaster, toast } from "sonner";
 
 function EmailRestAPI() {
   const [name, setName] = useState("");
@@ -75,12 +77,13 @@ function EmailRestAPI() {
               onChange={(e) => setMessage(e.target.value)}
               className="rounded-lg bg-blue-950 border-4 border-blue-900 p-4 w-full text-slate-100"
             ></textarea>
-            <button
-              type="submit"
-              className="rounded-lg bg-blue-300 border-4 border-blue-900 p-4 w-full"
+            <Toaster />
+            <Button
+              onClick={() => toast.success("Email Inviata con successo!!")}
+              className="rounded-lg bg-blue-500 border-4 border-blue-900 p-4 w-full hover:bg-blue-400 "
             >
-              Invia il messaggio
-            </button>
+              Invia!
+            </Button>
           </form>
         </div>
       </div>
